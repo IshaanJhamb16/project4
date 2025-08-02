@@ -1,0 +1,382 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.navbar{
+    width:100%;
+    padding:0px 75px;
+    margin: 0px 0px 2px;
+    height:100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstnav{
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width:72%;
+    color: #262626;
+}
+.loggo{
+    background-image: url('https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    width: 10%;
+    padding: 16px 6px 16px 10px;
+    margin: 1px 0px 0px;
+    font-size:13px;
+}
+.bar{
+    background-color:transparent;
+    font-size: 13px;
+    color:grey;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20.5px;
+    height: 100%;
+    text-decoration: none;
+    padding-left: 35px;
+}
+.bar a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+    color: #262626;
+}
+.secondnav{
+    width: 27%;
+    background-color:transparent;
+    height: 100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5.5px;
+}
+.info a{
+    font-size: 13px;
+    color: #262626;
+    text-decoration: none;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+}
+.logo{
+    font-size: 9.2px;
+    color: #262626;
+    padding-top: 7px;
+}
+.logo1,.logo2,.logo3{
+    font-size: 13px;
+    color: #262626;
+     font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+}
+.container{
+    
+    height: 479px;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682:VP5-1920x600');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box{
+    height:210px;
+    width: 450px;
+    background-color:transparent;
+    position: relative;
+    top:90px;
+    left:120px;
+    display: flex;
+    flex-direction: column;
+    gap:20.5px;
+}
+.pass p{
+   color: black;
+   font-size: 37px;
+   font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+   font-weight: 500;
+}
+.in p{
+    color: black;
+   font-size: 16px;
+   font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+
+}
+.btn button{
+    background-color: #0067b8;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width:105px;
+    outline: none;
+    border: none;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.section{
+    
+    height:60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+    padding-top:7px ;
+    padding-right: 10px;
+}
+.first,.secnd,.thrd,.frth,.ffth{
+    font-size: 18px;
+    color: #171717;
+}
+.thrd,.frth{
+    font-size: 10px;
+}
+.sec{
+    
+    height:150px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.icon{
+    
+    font-size: 32px;
+}
+.link{
+    font-size: 16;
+    padding-top: 5px;
+}
+.link a{
+    text-decoration: underline;
+    color:#0067b8;
+    font-weight: 500;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+}
+
+.division{
+    
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap:25px;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    height: 85%;
+    box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+}
+
+.pic,.pic1,.pic2,.pic3{
+    height: 40%;
+    
+}
+.pic{
+  background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-M365-Icons-Teams?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic1{
+  background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Native-App-ROW?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic2{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=380&hei=213&fit=crop');
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic3{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=380&hei=213&fit=crop');
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.txt{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15.5px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.txt .pass p{
+    font-size: 29px;
+}
+.txt .btn button{
+    width: 170px;
+}
+#two .btn button{
+    width:225px;
+}    
+
+#three .btn button,#four .btn button{
+    margin-top: 60px;
+}
+.main{
+    width: 90%;
+    height: 500px;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-Game-Pass-APR-2025:VP5-1596x600');
+   background-size: cover;
+   background-repeat: no-repeat;
+    margin:5% 5%;
+}
+.system{
+     height:300px;
+    width: 400px;
+    background-color:transparent;
+    position: relative;
+    top:130px;
+    left:120px;
+    display: flex;
+    flex-direction: column;
+    gap:20.5px;
+    
+}
+.btn{
+    color: white;
+}
+.system .pass p{
+    color: white;
+}
+.system .in p{
+    color: white;
+}
+.bt{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+}
+.bt i{
+    padding-right: 8px;
+}
+.para{
+    font-size:37px;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 5%;
+}
+.div{
+   height: 650px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap:25px;
+}
+.pic4,.pic5,.pic6,.pic7{
+    height: 35%;
+    
+}
+.pic4{
+  background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Pro-AI-11Ed-Platinum-x86-001-COMMR?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic5{
+   background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Copilot-Commercial?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic6{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-Teams-Commercial-Meeting?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pic7{
+   background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Windows-11-Business?wid=380&hei=213&fit=crop');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new{
+    
+    height: 30px;
+    width: 58px;
+    background-color:#ffb900;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div #one{
+   gap:3px;
+    font-family:'Segoe UI','helvetica', Geneva, Verdana, sans-serif;
+}
+.div #one .in{
+    padding-top: 16px;
+}
+.div #one .btn{
+    margin-top:16px;
+}
+.div #two,.div #three,.div #four{
+    padding-top: 53px;
+}
+.div #two{
+    padding-right: 20px;
+}
+.div #two .btn{
+    margin-top: 65px;
+}
+.div #three .btn,.div #four .btn{
+    margin-top: 5px;
+}
+.div .btn button{
+    width: 110px;
+}
+.div #two .btn button{
+    width: 110px;
+}
+.div #three .btn button{
+    width: 263px;
+    height: 50px;
+    justify-content: left;
+}
+
+
